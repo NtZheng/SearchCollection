@@ -10,6 +10,7 @@
 		6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9854A51E909E2F0053955C /* BinarySearch.m */; };
 		6A9D90841E909A3300EFB588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D90831E909A3300EFB588 /* main.m */; };
 		6A9D908C1E909AAA00EFB588 /* SequentialSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D908B1E909AAA00EFB588 /* SequentialSearch.m */; };
+		6AD9D4FE1E90CF6B00E3E96E /* IndexSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD9D4FD1E90CF6B00E3E96E /* IndexSearch.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6A9D90831E909A3300EFB588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A9D908A1E909AAA00EFB588 /* SequentialSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequentialSearch.h; sourceTree = "<group>"; };
 		6A9D908B1E909AAA00EFB588 /* SequentialSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SequentialSearch.m; sourceTree = "<group>"; };
+		6AD9D4FC1E90CF6B00E3E96E /* IndexSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexSearch.h; sourceTree = "<group>"; };
+		6AD9D4FD1E90CF6B00E3E96E /* IndexSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexSearch.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				6A9D908B1E909AAA00EFB588 /* SequentialSearch.m */,
 				6A9854A41E909E2F0053955C /* BinarySearch.h */,
 				6A9854A51E909E2F0053955C /* BinarySearch.m */,
+				6AD9D4FC1E90CF6B00E3E96E /* IndexSearch.h */,
+				6AD9D4FD1E90CF6B00E3E96E /* IndexSearch.m */,
 			);
 			path = SearchCollection;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			files = (
 				6A9D908C1E909AAA00EFB588 /* SequentialSearch.m in Sources */,
 				6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */,
+				6AD9D4FE1E90CF6B00E3E96E /* IndexSearch.m in Sources */,
 				6A9D90841E909A3300EFB588 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
