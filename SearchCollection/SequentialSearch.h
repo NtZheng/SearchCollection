@@ -10,4 +10,6 @@
 
 @interface SequentialSearch : NSObject
 
++ (int)sequentialSearchFor :(NSNumber *)key InArray :(NSMutableArray *)array;
+
 @end

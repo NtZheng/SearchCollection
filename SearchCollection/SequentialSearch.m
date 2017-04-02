@@ -10,4 +10,13 @@
 
 @implementation SequentialSearch
 
++ (int)sequentialSearchFor :(NSNumber *)key InArray :(NSMutableArray *)array {
+    array[0] = key;
+    int i = (int)array.count - 1;
+    while ([array[i--] isNotEqualTo:key]) {
+        
+    }
+    return i;
+}
+
 @end
