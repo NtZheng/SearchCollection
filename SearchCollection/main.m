@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SequentialSearch.h"
+#import "BinarySearch.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -26,7 +27,7 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"------");
         
-        NSLog(@"%d",[SequentialSearch sequentialSearchFor:@3 InArray:array]);
+        NSLog(@"%d",[BinarySearch binarySearchFor:@0 InArray:array]);
         
         
     }

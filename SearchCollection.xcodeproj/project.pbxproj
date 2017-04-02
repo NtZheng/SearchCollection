@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9854A51E909E2F0053955C /* BinarySearch.m */; };
 		6A9D90841E909A3300EFB588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D90831E909A3300EFB588 /* main.m */; };
 		6A9D908C1E909AAA00EFB588 /* SequentialSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D908B1E909AAA00EFB588 /* SequentialSearch.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A9854A41E909E2F0053955C /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
+		6A9854A51E909E2F0053955C /* BinarySearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearch.m; sourceTree = "<group>"; };
 		6A9D90801E909A3300EFB588 /* SearchCollection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SearchCollection; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A9D90831E909A3300EFB588 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A9D908A1E909AAA00EFB588 /* SequentialSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SequentialSearch.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				6A9D90831E909A3300EFB588 /* main.m */,
 				6A9D908A1E909AAA00EFB588 /* SequentialSearch.h */,
 				6A9D908B1E909AAA00EFB588 /* SequentialSearch.m */,
+				6A9854A41E909E2F0053955C /* BinarySearch.h */,
+				6A9854A51E909E2F0053955C /* BinarySearch.m */,
 			);
 			path = SearchCollection;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9D908C1E909AAA00EFB588 /* SequentialSearch.m in Sources */,
+				6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */,
 				6A9D90841E909A3300EFB588 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +258,7 @@
 				6A9D90891E909A3300EFB588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
