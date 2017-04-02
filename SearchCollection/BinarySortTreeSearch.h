@@ -8,10 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class BinarySortTreeNode;
+
 @interface BinarySortTreeSearch : NSObject
 
 - (void)showData;
 - (void)insertValueToBinarySortTree :(NSNumber *)value;
 - (int)binarySortTreeSearchFor :(NSNumber *)key;
+- (BOOL)deleteValueFromBinarySortTree :(NSNumber *)value;
 
 @end

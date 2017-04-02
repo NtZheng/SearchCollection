@@ -32,8 +32,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d",[BinarySearch binarySearchFor:@0 InArray:array]);
          */
         
-        BinarySortTreeSearch *binarySortTreeSearch = [[BinarySortTreeSearch alloc]init];
         
+        BinarySortTreeSearch *binarySortTreeSearch = [[BinarySortTreeSearch alloc]init];
+        [binarySortTreeSearch insertValueToBinarySortTree:@2];
         for (int i = 0; i < 10; i++) {
             int random = arc4random() % 100 + 1;
             NSNumber *number = [NSNumber numberWithInt:random];
@@ -42,7 +43,12 @@ int main(int argc, const char * argv[]) {
         
         [binarySortTreeSearch showData];
         
-        NSLog(@"%d",[binarySortTreeSearch binarySortTreeSearchFor:@3]);
+        NSLog(@"----------");
+        
+        [binarySortTreeSearch deleteValueFromBinarySortTree:@2];
+        
+        [binarySortTreeSearch showData];
     }
     return 0;
 }
+
