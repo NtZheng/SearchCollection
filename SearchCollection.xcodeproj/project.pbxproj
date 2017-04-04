@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A015E871E9352E8009B02AF /* BTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A015E861E9352E8009B02AF /* BTree.m */; };
 		6A2F4B8C1E92260A00D148D1 /* AVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2F4B8B1E92260A00D148D1 /* AVLTree.m */; };
 		6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9854A51E909E2F0053955C /* BinarySearch.m */; };
 		6A9D90841E909A3300EFB588 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D90831E909A3300EFB588 /* main.m */; };
@@ -29,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6A015E851E9352E8009B02AF /* BTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTree.h; sourceTree = "<group>"; };
+		6A015E861E9352E8009B02AF /* BTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTree.m; sourceTree = "<group>"; };
 		6A2F4B8A1E92260A00D148D1 /* AVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
 		6A2F4B8B1E92260A00D148D1 /* AVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTree.m; sourceTree = "<group>"; };
 		6A9854A41E909E2F0053955C /* BinarySearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinarySearch.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				6AD9D5031E90DCF100E3E96E /* BinarySortTreeNode.m */,
 				6A2F4B8A1E92260A00D148D1 /* AVLTree.h */,
 				6A2F4B8B1E92260A00D148D1 /* AVLTree.m */,
+				6A015E851E9352E8009B02AF /* BTree.h */,
+				6A015E861E9352E8009B02AF /* BTree.m */,
 			);
 			path = SearchCollection;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 				6A9854A61E909E2F0053955C /* BinarySearch.m in Sources */,
 				6AD9D5041E90DCF100E3E96E /* BinarySortTreeNode.m in Sources */,
 				6AD9D5011E90D7C100E3E96E /* BinarySortTreeSearch.m in Sources */,
+				6A015E871E9352E8009B02AF /* BTree.m in Sources */,
 				6A2F4B8C1E92260A00D148D1 /* AVLTree.m in Sources */,
 				6AD9D4FE1E90CF6B00E3E96E /* IndexSearch.m in Sources */,
 				6A9D90841E909A3300EFB588 /* main.m in Sources */,
